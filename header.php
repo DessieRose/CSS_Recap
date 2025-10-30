@@ -11,6 +11,8 @@
 
 <body>
     <header>
+        <img class="open-nav" src="images/Components/Hamburger icon.svg" />
+        <img class="close-nav" src="images/Components/Close icon.svg" />
         <nav>
             <a>Home</a>
             <a>Artists</a>
