@@ -11,6 +11,8 @@
 
 <body>
     <header>
+        <img class="open-menu" src="images/Components/Hamburger icon.svg">
+        <img class="close-menu" src="images/Components/Close icon.svg">
         <nav>
             <a href="index.php">Home</a>
             <a href="https://dollyparton.com/">Artists</a>
