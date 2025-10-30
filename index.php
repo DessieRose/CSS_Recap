@@ -1,9 +1,11 @@
 <?php
-require __DIR__ . "header.php";
+require_once __DIR__ . '/header.php';
 ?>
-    <h6>PORTFOLIO</h6>
-    <h1>Dolly Parton</h1>
-    <p>Islands in the stream. That is what we are. No one in between How can we be wrong Sail away with me. To another world. And we rely on each other, huhn hah</p>
+    <section class="info_start">
+        <h6>PORTFOLIO</h6>
+        <h1>Dolly Parton</h1>
+        <p>Islands in the stream. That is what we are. No one in between How can we be wrong Sail away with me. To another world. And we rely on each other, huhn hah</p>
+    </section>
     <section class="container">
         <div>
             <img src="images/31955827992ce311098d950fe595deeee9d33791.jpg" alt="image_1">
