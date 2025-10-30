@@ -11,5 +11,15 @@
 
 <body>
     <header>
-        <nav></nav>
+        <nav>
+            <a>Home</a>
+            <a>Artists</a>
+            <a>Artwork</a>
+            <a>Contact</a>
+        </nav>
+        <section class="contact">
+            <p>Commodo Consequat 23</p>
+            <p><a href="mailto:someone@example.com">info@photos.io</a></p>
+            <p><a href="tel:+46720000100">+46 720 000 100</a></p>
+        </section>
     </header>
