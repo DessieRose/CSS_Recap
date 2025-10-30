@@ -1,0 +1,45 @@
+:root {
+    --primary-bg-color: #262626;
+    --h6-color: #CACACA;
+    --white: #FFFFFF;
+    --highlight-color: #E9AA89;
+}
+
+body {
+    font-family: helvetica;
+    color: var(--white);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--highlight-color);
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--h6-color);
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container > div {
+    width: 173px;
+    height: 167px;
+}
