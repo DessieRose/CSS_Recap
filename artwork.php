@@ -2,7 +2,7 @@
 require_once __DIR__ . '/header.php';
 ?>
 
-<img />
+<img class="head-picture" src="images/6c85d0d65cbc48a189f5b2d02b6996cfc74db23b.jpg" />
 <section>
     <h6>Nature</h6>
     <h3>Tumble outta bed and stumble to the kitchen</h3>

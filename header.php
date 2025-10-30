@@ -11,10 +11,12 @@
 
 <body>
     <header>
+        <img class="open-menu" src="images/Components/Hamburger icon.svg">
+        <img class="close-menu" src="images/Components/Close icon.svg">
         <nav>
-            <a>Home</a>
-            <a>Artists</a>
-            <a>Artwork</a>
+            <a href="index.php">Home</a>
+            <a href="https://dollyparton.com/">Artists</a>
+            <a href="artwork.php">Artwork</a>
             <a>Contact</a>
         </nav>
         <section class="contact">
