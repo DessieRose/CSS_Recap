@@ -12,9 +12,9 @@
 <body>
     <header>
         <nav>
-            <a>Home</a>
-            <a>Artists</a>
-            <a>Artwork</a>
+            <a href="index.php">Home</a>
+            <a href="https://dollyparton.com/">Artists</a>
+            <a href="artwork.php">Artwork</a>
             <a>Contact</a>
         </nav>
         <section class="contact">
