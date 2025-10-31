@@ -27,13 +27,10 @@ nav {
 nav ul {
     display: block;
     list-style: none;
-    width: 100%;
-    flex-basis: 100%;
 }
 
 nav ul li {
     margin-bottom: 0;
-    width: 100%;
     text-align: left;
     padding: 0.5em;
     text-decoration: none; 
@@ -55,6 +52,15 @@ a {
     right: 0;
     margin: 1rem;
 }
+.menu-container{
+    height: 100vh;
+    width: 100vw;
+    z-index: 7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--primary-bg-color);
+}
 .close-menu, .open-menu:hover{
     cursor: pointer;
 }
@@ -73,6 +79,7 @@ nav label {
     padding: 0.5em;
     line-height: 1.6em;
     align-self: center;
+    z-index: 10;
 }
 
 h1 {
