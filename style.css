@@ -7,14 +7,23 @@
 
 body {
     margin: 0;
-    max-width: 500px;
+    max-width: 100%;
     font-family: helvetica;
     color: var(--white);
     background-color: var(--primary-bg-color);
 }
 
-header {
+header , .close-menu{
     display: none;
+}
+
+.open-menu {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
 }
 
 h1 {
@@ -51,27 +60,46 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 1rem;
     
 }
 
-.container > div {
-    width: 173px;
-    height: 167px;
+.item {
+    position: relative;
+    /* overflow: hidden; */
+    width: 42vw;
+    height: 42vw;
 }
 
-img {
+.item img {
+    display: block;
     width: 100%;
     height: 100%;
+    transition: opacity 0.3s ease;
     object-fit: cover;
 }
 
-@media screen and (min-width:700px) {
-    body {
-        max-width: 100%; 
-    }
-    .container > div {
-        width: 50%;
-        height: 50%;
-    }
+.item p {
+    position: absolute;
+    inset: 0; /* Makes p cover the whole image area */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin: 0;
 }
+
+.item:hover img {
+    opacity: 0.3; 
+}
+
+.item:hover p {
+    opacity: 1;
+}
+
+/* @media screen and (min-width:700px) {
+    .container {
+        
+    }
+} */
