@@ -25,6 +25,7 @@ header , .close-menu{
     top: 0;
     right: 0;
     margin: 1rem;
+    z-index: 10;
 }
 
 h1 {
@@ -33,10 +34,18 @@ h1 {
     margin: 0;
 }
 
+h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0;
+}
+
 h5 {
     font-weight: 400;
     font-size: 18px;
     color: var(--highlight-color);
+    margin-top: 1rem;
 }
 
 h6 {
@@ -44,6 +53,14 @@ h6 {
     font-size: 12px;
     color: var(--h6-color);
     margin: 5rem 0 1rem 0;
+}
+
+.artwork-h6 {
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--h6-color);
+    margin: 2rem 0 1rem 0;
+
 }
 
 p {
@@ -102,10 +119,28 @@ p {
     cursor: pointer;
 }
 
+.head-picture {
+    position: relative;
+    width: 100vw;
+    height: 100vw;
+}
+
+.head-picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 @media screen and (min-width: 500px) {
     .item {
         max-width: 300px;
         max-height: 300px;
+    }
+    
+    .head-picture {
+        max-width: 100%;
+        max-height: 70vh;
     }
 
     h1 {
@@ -116,4 +151,9 @@ p {
         font-size: 20px;
     }
 
+    body {
+        margin: 0 20rem 0 20rem;
+    }
+
+   
 }

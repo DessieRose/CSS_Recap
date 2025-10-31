@@ -2,9 +2,11 @@
 require_once __DIR__ . '/header.php';
 ?>
 
-<img class="head-picture" src="images/6c85d0d65cbc48a189f5b2d02b6996cfc74db23b.jpg" />
-<section>
-    <h6>Nature</h6>
+<div class="head-picture">
+    <img src="images/b10302eaca087bca6b66d0426a4451bbb9780223.png"/>
+</div>
+<section class="info_start">
+    <h6 class="artwork-h6">NATURE</h6>
     <h3>Tumble outta bed and stumble to the kitchen</h3>
     <h5>By: Dolly Parton</h5>
     <p>All you got to do is smile that smile. And there go all my defenses.
