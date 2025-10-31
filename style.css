@@ -13,17 +13,66 @@ body {
     background-color: var(--primary-bg-color);
 }
 
-header , .close-menu{
+/*header ,*/ .close-menu{
     display: none;
 }
 
-.open-menu {
+nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav ul {
+    display: block;
+    list-style: none;
+    width: 100%;
+    flex-basis: 100%;
+}
+
+nav ul li {
+    margin-bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 0.5em;
+    text-decoration: none; 
+    font-size: 3rem;   
+ }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.contact{
+    padding-left: 4rem;
+}
+.open-menu, .close-menu {
     width: 2.5rem;
     height: 2.5rem;
     position: absolute;
     top: 0;
     right: 0;
     margin: 1rem;
+}
+.close-menu, .open-menu:hover{
+    cursor: pointer;
+}
+
+input[type='checkbox']:not(:checked)+.menu-container {
+    display: none;
+}
+
+nav input[type='checkbox'], nav label {
+    display: none;
+}
+
+nav label {
+    text-align: right;
+    display: block;
+    padding: 0.5em;
+    line-height: 1.6em;
+    align-self: center;
 }
 
 h1 {

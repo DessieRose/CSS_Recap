@@ -10,18 +10,25 @@
 </head>
 
 <body>
-    <img class="open-menu" src="images/Components/Hamburger icon.svg">
     <img class="close-menu" src="images/Components/Close icon.svg">
     <header>
         <nav>
-            <a href="index.php">Home</a>
-            <a href="https://dollyparton.com/">Artists</a>
-            <a href="artwork.php">Artwork</a>
-            <a>Contact</a>
+            <label for='menu' tabindex="0">
+                <img class="open-menu" src="images/Components/Hamburger icon.svg">
+            </label>
+            <input id='menu' type='checkbox' />
+            <div class="menu-container">
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="https://dollyparton.com/">Artists</a></li>
+                    <li><a href="artwork.php">Artwork</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+                <section class="contact">
+                    <p>Commodo Consequat 23</p>
+                    <p><a href="mailto:someone@example.com">info@photos.io</a></p>
+                    <p><a href="tel:+46720000100">+46 720 000 100</a></p>
+                </section>
         </nav>
-        <section class="contact">
-            <p>Commodo Consequat 23</p>
-            <p><a href="mailto:someone@example.com">info@photos.io</a></p>
-            <p><a href="tel:+46720000100">+46 720 000 100</a></p>
-        </section>
+        </div>
     </header>
