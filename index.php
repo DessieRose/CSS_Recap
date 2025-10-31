@@ -8,30 +8,41 @@ require_once __DIR__ . '/header.php';
     </section>
     <section class="container">
         <div class="item">
-            <img src="images/9c02dbf10adcd5cde802acf063a8efcf3b7b70eb.jpg" alt="image_1">
             <p>View work</p>
+            <a href="/artwork.php">
+                <img src="images/9c02dbf10adcd5cde802acf063a8efcf3b7b70eb.jpg" alt="image_1">
+            </a>
         </div>
         <div class="item">
-            <img src="images/31955827992ce311098d950fe595deeee9d33791.jpg" alt="image_2">
             <p>View work</p>
+            <a href="/artwork.php">
+                <img src="images/31955827992ce311098d950fe595deeee9d33791.jpg" alt="image_2">
+            </a>
         </div>
         <div class="item">
-            <img src="images/9217e70e16d83b6f4341c988df7d8b515abf4b79.jpg" alt="image_3">
             <p>View work</p> 
+            <a href="/artwork.php">
+                <img src="images/9217e70e16d83b6f4341c988df7d8b515abf4b79.jpg" alt="image_3">
+            </a>
+            </div>
+        <div class="item">
+            <p>View work</p>
+            <a href="/artwork.php">
+                <img src="images/821d996c3e3baf530416611af4f42472c0412194.jpg" alt="image_4">
+            </a>
         </div>
         <div class="item">
-            <img src="images/821d996c3e3baf530416611af4f42472c0412194.jpg" alt="image_4">
             <p>View work</p>
+            <a href="/artwork.php">
+                <img src="images/6c85d0d65cbc48a189f5b2d02b6996cfc74db23b.jpg" alt="image_5">
+            </a>
         </div>
         <div class="item">
-            <img src="images/6c85d0d65cbc48a189f5b2d02b6996cfc74db23b.jpg" alt="image_5">
             <p>View work</p>
-        </div>
-        <div class="item">
-            <img src="images/fb1da43c7c183467ac489032fbac771603d5b48c.jpg" alt="image_6">
-            <p>View work</p>
+            <a href="/artwork.php">
+                <img src="images/fb1da43c7c183467ac489032fbac771603d5b48c.jpg" alt="image_6">
+            </a>
         </div>
     </section>
 </body>
-
 </html>
